@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 
 import styled from "styled-components";
 
+import { BaseContext } from "../context/BaseContext";
 import { COLORS } from "../constants";
 
 export const Main = () => {
+  const { data } = useContext(BaseContext);
+
+  useEffect(() => {
+    if (data) console.log(data);
+  }, [data]);
+
   return (
     <Wrapper>
       <h1 className='main-header'>Stingray Music Categories</h1>
