@@ -1,24 +1,35 @@
 import React, { useState, useContext } from "react";
-
 import styled from "styled-components";
+
+import { BaseContext } from "../../../context/BaseContext";
 
 import { COLORS } from "../../../constants";
 
+import arrowPNG from "../../../assets/PNGs/Arrow_bottom.png";
+
 export const MostPopular = () => {
+  const { data } = useContext(BaseContext);
+
+  console.log(data);
+
   return (
-    <Wrapper>
-      <div className='info'>
-        <h1>Most Popular</h1>
-        <p>12 Channels</p>
-      </div>
-      <div className='dropdown'>
-        <button>{"<"}</button>
-      </div>
-    </Wrapper>
+    <>
+      <DropdownHeader>
+        <div className='info'>
+          <h1>Most Popular</h1>
+          <p>{data[0].swimlaneItems.length} Channels</p>
+        </div>
+        <div className='dropdown'>
+          <button>
+            <img src={arrowPNG} alt='click to open dropdown' />{" "}
+          </button>
+        </div>
+      </DropdownHeader>
+    </>
   );
 };
 
-const Wrapper = styled.div`
+const DropdownHeader = styled.div`
   width: 100%;
   min-height: 100px;
   background-color: white;
@@ -47,8 +58,17 @@ const Wrapper = styled.div`
     align-items: center;
 
     button {
-      height: 23px;
-      width: 23px;
+      height: 43px;
+      width: 43px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 32px;
+        width: 32px;
+      }
     }
   }
 `;

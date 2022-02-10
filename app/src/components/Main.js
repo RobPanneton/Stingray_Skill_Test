@@ -17,7 +17,7 @@ export const Main = () => {
   return (
     <Wrapper>
       <h1 className='main-header'>Stingray Music Categories</h1>
-      <Container />
+      {data && <Container />}
     </Wrapper>
   );
 };
