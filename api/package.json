@@ -1,0 +1,12 @@
+{
+  "name": "channel-list-api",
+  "version": "1.0.0",
+  "description": "Api for the channel list Stingray technical test",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,1376 @@
+[
+  {
+    "id": "TopChannels",
+    "description": "Most Popular",
+    "type": "CHANNEL",
+    "link": "https://music.stingray.com/app/recommendations/most-popular",
+    "refreshable": false,
+    "scrollable": true,
+    "swimlaneItems": [
+      {
+        "id": "015",
+        "description": "Polyester, platforms, Studio 54, flower power and all the outrageousness of the 70&rsquo;s. Flashback to one of the most explosive decades of music history and relive Boogie Nights, Motown, Woodstock and more of the best moments of 1968 to 1978. We start in the Summer of Love and finish just before the dawn of punk and new wave. Check this channel out and dig the music of: Abba, Jackson 5, Kool and the Gang, the Bee Gees, KC and the Sunshine Band, Carole King and more.",
+        "label": "Flashback '70s",
+        "cover": "https://image-service.stingray.com/music/015/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "021",
+        "description": "Diners, malt-shops, drive-ins and sock-hops. If you remember those, you&rsquo;ll love Jukebox Oldies. Save your quarters, these jukebox selections are on us. Relive the carefree, lively days of early rock and roll with the best music from the fifties and sixties by the precursors of rock: Elvis Presley, Buddy Holly, Chuck Berry, Fats Domino, the Beatles, the Beach Boys and more. This channel will have you rockin&rsquo; around the clock.",
+        "label": "Jukebox Oldies",
+        "cover": "https://image-service.stingray.com/music/021/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "SP0001",
+        "description": "The Offspring are bringing punk rock back! Dive into their handpicked favorite bangers and biggest hits on their curated channel. Let the bad times roll.",
+        "label": "The Offspring",
+        "cover": "https://image-service.stingray.com/music/SP0001/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "033",
+        "description": "Enter the provocative and rebellious world of hip-hop, rap, and contemporary R&amp;B. Listen to all the artists you love, including Drake, Juice Wrld, 21 Savage, Cardi B, Childish Gambino, Kendrick Lamar, Travis Scott, Ella Mai, and many more. Stay in the know of today&rsquo;s trending hits!",
+        "label": "Hip-Hop/R&B",
+        "cover": "https://image-service.stingray.com/music/033/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "036",
+        "description": "There is only one word needed to describe this channel. Rock. There&rsquo;s the hard kind, the hair kind, some punk kind, a dose of the classic kind, the occasional soft kind, the underground kind and the indie kind. Here you&rsquo;ll find all kinds of ROCK. Listen to the great rock music you know best from the eighties, nineties and today: from Guns and Roses, AC/DC, and many of the hair bands of the eighties, to Nickelback, Shinedown, and more.",
+        "label": "Rock",
+        "cover": "https://image-service.stingray.com/music/036/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "007",
+        "description": "Get the latest and the hottest chart-topping hits from Dua Lipa, Ariana Grande, Lauren Daigle, Post Malone, Cardi B, Sam Smith, Drake, Zara Larsson, Scott Helman and much more. Hit List delivers the goods and only the good goods. Tune in here for today&rsquo;s hits and previews of tomorrow&rsquo;s hits. That&rsquo;s right, we know what&rsquo;ll be a hit even before it&rsquo;s a hit!",
+        "label": "Hit List",
+        "cover": "https://image-service.stingray.com/music/007/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "SPF0001",
+        "description": "Jean-Pierre Ferland, the legendary singer-songwriter from Quebec, brings unmistakable charm to his curated channel. He regroups classic songs from Quebec&rsquo;s repertoire, some of the most recognizable voices in music, and his timeless hits.",
+        "label": "Jean-Pierre Ferland",
+        "cover": "https://image-service.stingray.com/music/SPF0001/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "040",
+        "description": "The hottest contemporary jazz artists in a smooth-flowing soundscape, featuring melodic and stylish guitars, saxophones, pianos, trumpets. It creates a superb background sound full of melodies and modern textures. Featured artists include Boney James, Chris Botti, David Koz, Fourplay, Diana Krall, Warren Hill, George Howard, Jeff Lorber, Joe Sample, Kenny G, Spyro Gyra, Najee, and Paul Hardcastle.",
+        "label": "Smooth Jazz",
+        "cover": "https://image-service.stingray.com/music/040/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "001",
+        "description": "You can&rsquo;t pin a year on a classic rock song. You just know what&rsquo;s a classic. This is the soundtrack to the lives of the &lsquo;young at heart&rsquo;. Relive the sound that revolutionized the world of music, through the classic rock tunes from the late sixties to the eighties. Obviously there&rsquo;s lots of Rolling Stones, Neil Young, Eric Clapton, Led Zeppelin, Tom Petty, Eagles, and more. There are many &lsquo;Classic Rock&rsquo;s radio stations on the dial, but none as classic as Stingray Music&rsquo;s.",
+        "label": "Classic Rock",
+        "cover": "https://image-service.stingray.com/music/001/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "005",
+        "description": "This is The Chill Lounge. Perfect anytime you want to relax and vibe out with instrumental downtempo electronic, acid jazz, lofi hiphop, and deep house.",
+        "label": "The Chill Lounge",
+        "cover": "https://image-service.stingray.com/music/005/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "009",
+        "description": "Now here&rsquo;s a channel that&rsquo;s as classic as classic comes. Your all-time favorite Country acts from years gone by. Home of the legends and the storytellers. No need to tell you who these legends are, but for those who are unsure we mean of course: Patsy Cline, Hank Williams, Ray Price, Anne Murray, Johnny Cash. You get it, classic country, western and bluegrass.",
+        "label": "Country Classics",
+        "cover": "https://image-service.stingray.com/music/009/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "004",
+        "description": "Give in to your romantic and sentimental nature with the best in pop adult contemporary music, featuring hitmakers like Adele, Maroon 5, Colbie Caillat and John Mayer, as well as eternal favourites such as U2, Madonna and Rod Stewart. Mainstream popular music that is at the same time fresh and timeless. Discover new songs and artists of this popular genre and be reconnected with past favourites.",
+        "label": "Pop Adult",
+        "cover": "https://image-service.stingray.com/music/004/CHANNEL_COVER/1000x1000/jpg"
+      }
+    ]
+  },
+  {
+    "id": "TvLineup",
+    "description": "TV Lineup",
+    "type": "LINK",
+    "refreshable": false,
+    "scrollable": true,
+    "swimlaneItems": [
+      {
+        "id": "Classical",
+        "description": "Classical",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/classical.png",
+        "tag": {
+          "code": "CLASSICAL",
+          "name": "Classical",
+          "children": [
+            {
+              "code": "CLASSICAL_OPERA",
+              "name": "Opera",
+              "children": [],
+              "parent_code": "CLASSICAL"
+            },
+            {
+              "code": "CLASSICAL_CHAMBER",
+              "name": "Chamber",
+              "children": [],
+              "parent_code": "CLASSICAL"
+            },
+            {
+              "code": "CLASSICAL_SMALL_ENSEMBLES",
+              "name": "Small Ensembles",
+              "children": [],
+              "parent_code": "CLASSICAL"
+            },
+            {
+              "code": "CLASSICAL_BAROQUE",
+              "name": "Baroque",
+              "children": [],
+              "parent_code": "CLASSICAL"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extras",
+        "description": "Extras",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/extra.png",
+        "tag": {}
+      },
+      {
+        "id": "Rock",
+        "description": "Rock",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/rock.png",
+        "tag": {
+          "code": "ROCK",
+          "name": "Rock",
+          "children": [
+            {
+              "code": "ROCK_PUNK",
+              "name": "Punk",
+              "children": [],
+              "parent_code": "ROCK"
+            },
+            {
+              "code": "ROCK_METAL",
+              "name": "Metal",
+              "children": [],
+              "parent_code": "ROCK"
+            },
+            {
+              "code": "ROCK_ROCK_N_ROLL",
+              "name": "Rock n' Roll",
+              "children": [],
+              "parent_code": "ROCK"
+            },
+            {
+              "code": "ROCK_CLASSIC_ROCK",
+              "name": "Classic Rock",
+              "children": [],
+              "parent_code": "ROCK"
+            },
+            {
+              "code": "ROCK_ALTERNATIVE_ROCK",
+              "name": "Alternative Rock",
+              "children": [],
+              "parent_code": "ROCK"
+            },
+            {
+              "code": "ROCK_HARD_ROCK",
+              "name": "Hard Rock",
+              "children": [],
+              "parent_code": "ROCK"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Multicultural",
+        "description": "Multicultural",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/multi_cultural.png",
+        "tag": {}
+      },
+      {
+        "id": "Jazz",
+        "description": "Jazz",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/jazz.png",
+        "tag": {}
+      },
+      {
+        "id": "Hip-Hop",
+        "description": "Hip-Hop",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/urban.png",
+        "tag": {}
+      },
+      {
+        "id": "Pop",
+        "description": "Pop",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/pop.png",
+        "tag": {
+          "code": "POP",
+          "name": "Pop",
+          "children": [
+            {
+              "code": "POP_EASY_LISTENING",
+              "name": "Easy Listening",
+              "children": [],
+              "parent_code": "POP"
+            },
+            {
+              "code": "POP_ADULT_POP",
+              "name": "Adult Pop",
+              "children": [],
+              "parent_code": "POP"
+            },
+            {
+              "code": "POP_TOP_40",
+              "name": "Top 40",
+              "children": [],
+              "parent_code": "POP"
+            },
+            {
+              "code": "POP_TEEN_POP",
+              "name": "Teen Pop",
+              "children": [],
+              "parent_code": "POP"
+            }
+          ]
+        }
+      },
+      {
+        "id": "TV_LINEUP",
+        "description": "TV Channel Numbers",
+        "cover": "http://vip-resource.s3.amazonaws.com/GENRE_ICON_300_PNG/tv_channels_number.png",
+        "tag": {}
+      },
+      {
+        "id": "Country",
+        "description": "Country",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/country.png",
+        "tag": {
+          "code": "COUNTRY",
+          "name": "Country and Roots",
+          "children": [
+            {
+              "code": "COUNTRY_ALTERNATIVE_COUNTRY",
+              "name": "COUNTRY_ALTERNATIVE_COUNTRY",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_BLUEGRASS",
+              "name": "Bluegrass",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_FRANCO_COUNTRY",
+              "name": "Franco-Country",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_CONTEMPORARY_COUNTRY",
+              "name": "Contemporary Country",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_AMERICANA",
+              "name": "Americana / Alternative Country",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_CLASSIC_COUNTRY",
+              "name": "Classic Country",
+              "children": [],
+              "parent_code": "COUNTRY"
+            },
+            {
+              "code": "COUNTRY_FOLK",
+              "name": "Folk",
+              "children": [],
+              "parent_code": "COUNTRY"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Extra",
+        "description": "Extra",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/extra.png",
+        "tag": {}
+      },
+      {
+        "id": "Electro",
+        "description": "Electro",
+        "cover": "https://vip-resource.galaxie.ca/2/GENRE_ICON_300_PNG/generic.png",
+        "tag": {}
+      }
+    ]
+  },
+  {
+    "id": "NewChannels",
+    "description": "New Releases",
+    "type": "CHANNEL",
+    "link": "https://music.stingray.com/app/recommendations/new-releases",
+    "refreshable": false,
+    "scrollable": true,
+    "swimlaneItems": [
+      {
+        "id": "SP0001",
+        "description": "The Offspring are bringing punk rock back! Dive into their handpicked favorite bangers and biggest hits on their curated channel. Let the bad times roll.",
+        "label": "The Offspring",
+        "cover": "https://image-service.stingray.com/music/SP0001/CHANNEL_COVER/1000x1000/jpg"
+      },
+      {
+        "id": "SPF0001",
+        "description": "Jean-Pierre Ferland, the legendary singer-songwriter from Quebec, brings unmistakable charm to his curated channel. He regroups classic songs from Quebec&rsquo;s repertoire, some of the most recognizable voices in music, and his timeless hits.",
+        "label": "Jean-Pierre Ferland",
+        "cover": "https://image-service.stingray.com/music/SPF0001/CHANNEL_COVER/1000x1000/jpg"
+      }
+    ]
+  },
+  {
+    "id": "BrowseAll",
+    "description": "Browse All",
+    "type": "LINK",
+    "link": "https://music.stingray.com/app/vibes/category",
+    "refreshable": false,
+    "scrollable": true,
+    "swimlaneItems": [
+      {
+        "id": "GENRE",
+        "description": "Genre",
+        "cover": "https://vip-resource.galaxie.ca/2/vibe-category-icon/MOBILE_VIBE_CATEGORY_ICON_268_JPG/genre.jpg",
+        "tag": {
+          "code": "GENRE",
+          "name": "GENRE",
+          "children": [
+            {
+              "code": "PRAISE_AND_WORSHIP",
+              "name": "Praise and Worship",
+              "children": []
+            },
+            {
+              "code": "MISCELLANEOUS",
+              "name": "Miscellaneous",
+              "children": [
+                {
+                  "code": "MISCELLANEOUS_NEW_AGE",
+                  "name": "New Age",
+                  "children": [],
+                  "parent_code": "MISCELLANEOUS"
+                },
+                {
+                  "code": "MISCELLANEOUS_NATURE_SOUNDS",
+                  "name": "Nature Sounds",
+                  "children": [],
+                  "parent_code": "MISCELLANEOUS"
+                }
+              ]
+            },
+            {
+              "code": "ELECTRONIC",
+              "name": "Electronic",
+              "children": [
+                {
+                  "code": "ELECTRONIC_TRANCE",
+                  "name": "Trance",
+                  "children": [],
+                  "parent_code": "ELECTRONIC"
+                },
+                {
+                  "code": "ELECTRONIC_LOUNGE",
+                  "name": "Lounge",
+                  "children": [],
+                  "parent_code": "ELECTRONIC"
+                },
+                {
+                  "code": "ELECTRONIC_DANCE",
+                  "name": "Dance",
+                  "children": [],
+                  "parent_code": "ELECTRONIC"
+                },
+                {
+                  "code": "ELECTRONIC_HOUSE",
+                  "name": "House",
+                  "children": [],
+                  "parent_code": "ELECTRONIC"
+                },
+                {
+                  "code": "ELECTRONIC_ELECTRO_POP",
+                  "name": "Electro Pop",
+                  "children": [],
+                  "parent_code": "ELECTRONIC"
+                }
+              ]
+            },
+            {
+              "code": "JAZZ_BLUES",
+              "name": "Jazz & Blues",
+              "children": [
+                {
+                  "code": "JAZZ_BLUES_BLUES",
+                  "name": "Blues",
+                  "children": [],
+                  "parent_code": "JAZZ_BLUES"
+                },
+                {
+                  "code": "JAZZ_BLUES_SMOOTH_JAZZ",
+                  "name": "Smooth Jazz",
+                  "children": [],
+                  "parent_code": "JAZZ_BLUES"
+                },
+                {
+                  "code": "JAZZ_BLUES_JAZZ",
+                  "name": "Jazz",
+                  "children": [],
+                  "parent_code": "JAZZ_BLUES"
+                }
+              ]
+            },
+            {
+              "code": "HIP_HOP",
+              "name": "Hip-Hop",
+              "children": []
+            },
+            {
+              "code": "MISCELLANEOUS_CHILDREN",
+              "name": "Kids and Teens",
+              "children": []
+            },
+            {
+              "code": "CLASSICAL",
+              "name": "Classical",
+              "children": [
+                {
+                  "code": "CLASSICAL_OPERA",
+                  "name": "Opera",
+                  "children": [],
+                  "parent_code": "CLASSICAL"
+                },
+                {
+                  "code": "CLASSICAL_CHAMBER",
+                  "name": "Chamber",
+                  "children": [],
+                  "parent_code": "CLASSICAL"
+                },
+                {
+                  "code": "CLASSICAL_SMALL_ENSEMBLES",
+                  "name": "Small Ensembles",
+                  "children": [],
+                  "parent_code": "CLASSICAL"
+                },
+                {
+                  "code": "CLASSICAL_BAROQUE",
+                  "name": "Baroque",
+                  "children": [],
+                  "parent_code": "CLASSICAL"
+                }
+              ]
+            },
+            {
+              "code": "R_B_SOUL",
+              "name": "R&B/Soul",
+              "children": [
+                {
+                  "code": "R_B_SOUL_CLASSIC_R_B",
+                  "name": "Classic R&B",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                },
+                {
+                  "code": "R_B_SOUL_SOUL",
+                  "name": "Soul",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                },
+                {
+                  "code": "R_B_SOUL_DISCO",
+                  "name": "Disco",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                },
+                {
+                  "code": "R_B_SOUL_GOSPEL",
+                  "name": "Gospel",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                },
+                {
+                  "code": "R_B_SOUL_CONTEMPORARY_R_B",
+                  "name": "Contemporary R&B",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                },
+                {
+                  "code": "R_B_SOUL_FUNK",
+                  "name": "Funk",
+                  "children": [],
+                  "parent_code": "R_B_SOUL"
+                }
+              ]
+            },
+            {
+              "code": "MUSIC_WITH_MESSAGING",
+              "name": "MUSIC_WITH_MESSAGING",
+              "children": []
+            },
+            {
+              "code": "ROOTS",
+              "name": "ROOTS",
+              "children": []
+            },
+            {
+              "code": "WORLD",
+              "name": "World",
+              "children": [
+                {
+                  "code": "WORLD_REGGAE",
+                  "name": "Reggae",
+                  "children": [],
+                  "parent_code": "WORLD"
+                },
+                {
+                  "code": "WORLD_ASIAN_POP",
+                  "name": "Asian Pop",
+                  "children": [],
+                  "parent_code": "WORLD"
+                },
+                {
+                  "code": "WORLD_CELTIC",
+                  "name": "Celtic",
+                  "children": [],
+                  "parent_code": "WORLD"
+                }
+              ]
+            },
+            {
+              "code": "ROCK",
+              "name": "Rock",
+              "children": [
+                {
+                  "code": "ROCK_PUNK",
+                  "name": "Punk",
+                  "children": [],
+                  "parent_code": "ROCK"
+                },
+                {
+                  "code": "ROCK_METAL",
+                  "name": "Metal",
+                  "children": [],
+                  "parent_code": "ROCK"
+                },
+                {
+                  "code": "ROCK_ROCK_N_ROLL",
+                  "name": "Rock n' Roll",
+                  "children": [],
+                  "parent_code": "ROCK"
+                },
+                {
+                  "code": "ROCK_CLASSIC_ROCK",
+                  "name": "Classic Rock",
+                  "children": [],
+                  "parent_code": "ROCK"
+                },
+                {
+                  "code": "ROCK_ALTERNATIVE_ROCK",
+                  "name": "Alternative Rock",
+                  "children": [],
+                  "parent_code": "ROCK"
+                },
+                {
+                  "code": "ROCK_HARD_ROCK",
+                  "name": "Hard Rock",
+                  "children": [],
+                  "parent_code": "ROCK"
+                }
+              ]
+            },
+            {
+              "code": "BRAZILIAN_MUSIC",
+              "name": "Brazilian",
+              "children": []
+            },
+            {
+              "code": "SINGER_SONGWRITER",
+              "name": "Singer-Songwriter",
+              "children": []
+            },
+            {
+              "code": "INDIE",
+              "name": "Indie",
+              "children": [
+                {
+                  "code": "INDIE_ROCK",
+                  "name": "Indie: Rock",
+                  "children": [],
+                  "parent_code": "INDIE"
+                },
+                {
+                  "code": "INDIE_ELECTRO",
+                  "name": "Indie: Electronic",
+                  "children": [],
+                  "parent_code": "INDIE"
+                },
+                {
+                  "code": "INDIE_HIP_HOP",
+                  "name": "Indie: Hip Hop",
+                  "children": [],
+                  "parent_code": "INDIE"
+                },
+                {
+                  "code": "INDIE_POP",
+                  "name": "Indie: Pop",
+                  "children": [],
+                  "parent_code": "INDIE"
+                }
+              ]
+            },
+            {
+              "code": "COUNTRY",
+              "name": "Country and Roots",
+              "children": [
+                {
+                  "code": "COUNTRY_ALTERNATIVE_COUNTRY",
+                  "name": "COUNTRY_ALTERNATIVE_COUNTRY",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_BLUEGRASS",
+                  "name": "Bluegrass",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_FRANCO_COUNTRY",
+                  "name": "Franco-Country",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_CONTEMPORARY_COUNTRY",
+                  "name": "Contemporary Country",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_AMERICANA",
+                  "name": "Americana / Alternative Country",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_CLASSIC_COUNTRY",
+                  "name": "Classic Country",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                },
+                {
+                  "code": "COUNTRY_FOLK",
+                  "name": "Folk",
+                  "children": [],
+                  "parent_code": "COUNTRY"
+                }
+              ]
+            },
+            {
+              "code": "CARIBBEAN_MUSIC",
+              "name": "Caribbean Music",
+              "children": []
+            },
+            {
+              "code": "POP",
+              "name": "Pop",
+              "children": [
+                {
+                  "code": "POP_EASY_LISTENING",
+                  "name": "Easy Listening",
+                  "children": [],
+                  "parent_code": "POP"
+                },
+                {
+                  "code": "POP_ADULT_POP",
+                  "name": "Adult Pop",
+                  "children": [],
+                  "parent_code": "POP"
+                },
+                {
+                  "code": "POP_TOP_40",
+                  "name": "Top 40",
+                  "children": [],
+                  "parent_code": "POP"
+                },
+                {
+                  "code": "POP_TEEN_POP",
+                  "name": "Teen Pop",
+                  "children": [],
+                  "parent_code": "POP"
+                }
+              ]
+            },
+            {
+              "code": "LATIN",
+              "name": "Latin",
+              "children": [
+                {
+                  "code": "LATIN_BACHATA",
+                  "name": "Bachata",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_LATIN_POP",
+                  "name": "Latin Pop",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_REGGAETON",
+                  "name": "Reggaeton",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_MERENGUE",
+                  "name": "Merengue",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_BRAZILIAN",
+                  "name": "Brazilian",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_TROPICAL",
+                  "name": "Tropical",
+                  "children": [],
+                  "parent_code": "LATIN"
+                },
+                {
+                  "code": "LATIN_SALSA",
+                  "name": "Salsa",
+                  "children": [],
+                  "parent_code": "LATIN"
+                }
+              ]
+            }
+          ],
+          "parent_code": "GENRE"
+        }
+      },
+      {
+        "id": "ERA",
+        "description": "Era",
+        "cover": "https://vip-resource.galaxie.ca/2/vibe-category-icon/MOBILE_VIBE_CATEGORY_ICON_268_JPG/era.jpg",
+        "tag": {
+          "code": "ERA",
+          "name": "ERA",
+          "children": [
+            {
+              "code": "2000S",
+              "name": "2000s",
+              "children": []
+            },
+            {
+              "code": "1980S",
+              "name": "1980s",
+              "children": []
+            },
+            {
+              "code": "1940S",
+              "name": "1940s",
+              "children": []
+            },
+            {
+              "code": "1950S",
+              "name": "1950s",
+              "children": []
+            },
+            {
+              "code": "TODAY",
+              "name": "Today",
+              "children": []
+            },
+            {
+              "code": "1990S",
+              "name": "1990s",
+              "children": []
+            },
+            {
+              "code": "1960S",
+              "name": "1960s",
+              "children": []
+            },
+            {
+              "code": "2020S",
+              "name": "2020S",
+              "children": []
+            },
+            {
+              "code": "2010S",
+              "name": "2010s",
+              "children": []
+            },
+            {
+              "code": "1970S",
+              "name": "1970s",
+              "children": []
+            }
+          ],
+          "parent_code": "ERA"
+        }
+      },
+      {
+        "id": "THEME",
+        "description": "Theme",
+        "cover": "https://vip-resource.galaxie.ca/2/vibe-category-icon/MOBILE_VIBE_CATEGORY_ICON_268_JPG/theme.jpg",
+        "tag": {
+          "code": "THEME",
+          "name": "THEME",
+          "children": [
+            {
+              "code": "VOCAL",
+              "name": "Vocal",
+              "children": []
+            },
+            {
+              "code": "SPECIAL_CURATORS",
+              "name": "Special Curator",
+              "children": []
+            },
+            {
+              "code": "ARTIST_CHANNEL",
+              "name": "Artist Channel",
+              "children": []
+            },
+            {
+              "code": "CULTURE_EUROPE",
+              "name": "Europe",
+              "children": [
+                {
+                  "code": "CULTURE_NETHERLANDS",
+                  "name": "Netherlands",
+                  "children": [],
+                  "parent_code": "CULTURE_EUROPE"
+                },
+                {
+                  "code": "CULTURE_BRITAIN",
+                  "name": "Britain",
+                  "children": [],
+                  "parent_code": "CULTURE_EUROPE"
+                },
+                {
+                  "code": "CULTURE_FRANCE",
+                  "name": "France",
+                  "children": [],
+                  "parent_code": "CULTURE_EUROPE"
+                }
+              ]
+            },
+            {
+              "code": "CULTURE_ASIA",
+              "name": "Asia",
+              "children": []
+            },
+            {
+              "code": "INSTRUMENTAL",
+              "name": "Instrumental",
+              "children": []
+            },
+            {
+              "code": "BEST_OF_LISTS",
+              "name": "Best of Lists",
+              "children": []
+            },
+            {
+              "code": "HOLIDAYS_OTHER_THAN_CHRISTMAS",
+              "name": "Special Occasions",
+              "children": []
+            },
+            {
+              "code": "CULTURE_AFRICA",
+              "name": "Africa",
+              "children": []
+            },
+            {
+              "code": "CULTURE_TURKEY",
+              "name": "Turkey",
+              "children": []
+            },
+            {
+              "code": "CULTURE_AUSTRALIA",
+              "name": "Australia",
+              "children": []
+            },
+            {
+              "code": "FRANCOPHONIE",
+              "name": "Francophonie",
+              "children": []
+            },
+            {
+              "code": "CHRISTMAS",
+              "name": "The Holidays / Christmas",
+              "children": []
+            },
+            {
+              "code": "CULTURE_MIDDLE_EAST",
+              "name": "Middle East",
+              "children": []
+            },
+            {
+              "code": "CULTURE_CARIBBEAN",
+              "name": "Caribbean",
+              "children": []
+            },
+            {
+              "code": "CULTURE_SOUTH_AMERICA",
+              "name": "Latin America",
+              "children": [
+                {
+                  "code": "CULTURE_BRAZIL_LATAM",
+                  "name": "Brazil",
+                  "children": [],
+                  "parent_code": "CULTURE_SOUTH_AMERICA"
+                },
+                {
+                  "code": "MEXICO",
+                  "name": "Mexico",
+                  "children": [],
+                  "parent_code": "CULTURE_SOUTH_AMERICA"
+                }
+              ]
+            },
+            {
+              "code": "CULTURE_BRAZIL",
+              "name": "Brazil",
+              "children": []
+            },
+            {
+              "code": "CULTURE_NORTH_AMERICA",
+              "name": "North America",
+              "children": [
+                {
+                  "code": "CULTURE_USA",
+                  "name": "United States",
+                  "children": [],
+                  "parent_code": "CULTURE_NORTH_AMERICA"
+                },
+                {
+                  "code": "CULTURE_CANADA",
+                  "name": "Canada",
+                  "children": [],
+                  "parent_code": "CULTURE_NORTH_AMERICA"
+                },
+                {
+                  "code": "CULTURE_QUEBEC",
+                  "name": "Quebec",
+                  "children": [],
+                  "parent_code": "CULTURE_NORTH_AMERICA"
+                }
+              ]
+            }
+          ],
+          "parent_code": "THEME"
+        }
+      },
+      {
+        "id": "ACTIVITY",
+        "description": "Activity",
+        "cover": "https://vip-resource.galaxie.ca/2/vibe-category-icon/MOBILE_VIBE_CATEGORY_ICON_268_JPG/activity.jpg",
+        "tag": {
+          "code": "ACTIVITY",
+          "name": "ACTIVITY",
+          "children": [
+            {
+              "code": "ENTERTAINING",
+              "name": "Entertaining",
+              "children": [
+                {
+                  "code": "BARBECUING",
+                  "name": "Summertime Grilling",
+                  "children": [],
+                  "parent_code": "ENTERTAINING"
+                },
+                {
+                  "code": "CASUAL_DINNER_PARTY",
+                  "name": "Entertaining Guests",
+                  "children": [],
+                  "parent_code": "ENTERTAINING"
+                },
+                {
+                  "code": "BRUNCH",
+                  "name": "Brunch",
+                  "children": [],
+                  "parent_code": "ENTERTAINING"
+                }
+              ]
+            },
+            {
+              "code": "AROUND_THE_HOUSE",
+              "name": "Around the House",
+              "children": [
+                {
+                  "code": "WAKING_UP_HAPPY",
+                  "name": "Starting the Day",
+                  "children": [],
+                  "parent_code": "AROUND_THE_HOUSE"
+                },
+                {
+                  "code": "HOUSEWORK",
+                  "name": "Housework",
+                  "children": [],
+                  "parent_code": "AROUND_THE_HOUSE"
+                },
+                {
+                  "code": "WORKING_IN_THE_GARAGE",
+                  "name": "In the Garage",
+                  "children": [],
+                  "parent_code": "AROUND_THE_HOUSE"
+                },
+                {
+                  "code": "COOKING",
+                  "name": "Cooking",
+                  "children": [],
+                  "parent_code": "AROUND_THE_HOUSE"
+                }
+              ]
+            },
+            {
+              "code": "FAMILY_TIME",
+              "name": "Family Time",
+              "children": [
+                {
+                  "code": "DRIVING_THE_KIDS_TO_SCHOOL",
+                  "name": "Kids: Quiet Time",
+                  "children": [],
+                  "parent_code": "FAMILY_TIME"
+                },
+                {
+                  "code": "KIDS_BIRTHDAY_PARTY",
+                  "name": "Kids: Fun Time",
+                  "children": [],
+                  "parent_code": "FAMILY_TIME"
+                }
+              ]
+            },
+            {
+              "code": "PARTY",
+              "name": "Party!",
+              "children": [
+                {
+                  "code": "BARN_RAISING",
+                  "name": "Country Bash",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "GUYS_NIGHT_OUT",
+                  "name": "Hanging out with the guys",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "TEEN_PARTY",
+                  "name": "Teen Party",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "CROWD_PLEASING",
+                  "name": "Amping up the Party",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "GOING_TO_A_FESTIVAL",
+                  "name": "Going to a Festival",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "GIRLS_NIGHT_OUT",
+                  "name": "Girls' Night",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "CELEBRATING",
+                  "name": "Celebrating",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "DANCING",
+                  "name": "Dancing",
+                  "children": [],
+                  "parent_code": "PARTY"
+                },
+                {
+                  "code": "OFFICE_PARTY",
+                  "name": "Office Party",
+                  "children": [],
+                  "parent_code": "PARTY"
+                }
+              ]
+            },
+            {
+              "code": "ROMANCE",
+              "name": "Romance",
+              "children": [
+                {
+                  "code": "GETTING_ROMANTIC",
+                  "name": "Romantic Moments",
+                  "children": [],
+                  "parent_code": "ROMANCE"
+                },
+                {
+                  "code": "WEEPING",
+                  "name": "Heartbreak",
+                  "children": [],
+                  "parent_code": "ROMANCE"
+                }
+              ]
+            },
+            {
+              "code": "FOCUS",
+              "name": "Focus",
+              "children": [
+                {
+                  "code": "GAMING",
+                  "name": "Pulling an All-Nighter",
+                  "children": [],
+                  "parent_code": "FOCUS"
+                },
+                {
+                  "code": "STUDYING",
+                  "name": "Working/Studying",
+                  "children": [],
+                  "parent_code": "FOCUS"
+                },
+                {
+                  "code": "READING_IN_A_COFFEE_SHOP",
+                  "name": "At the coffee shop",
+                  "children": [],
+                  "parent_code": "FOCUS"
+                }
+              ]
+            },
+            {
+              "code": "DRIVING",
+              "name": "Driving/Commuting",
+              "children": []
+            },
+            {
+              "code": "RELAXATION",
+              "name": "Relaxation",
+              "children": [
+                {
+                  "code": "RELAXING",
+                  "name": "Relaxing",
+                  "children": [],
+                  "parent_code": "RELAXATION"
+                },
+                {
+                  "code": "CHILLING_ON_THE_BACK_PORCH",
+                  "name": "Chilling On the Back Porch",
+                  "children": [],
+                  "parent_code": "RELAXATION"
+                },
+                {
+                  "code": "SUNBATHING",
+                  "name": "Soaking Up the Sun",
+                  "children": [],
+                  "parent_code": "RELAXATION"
+                },
+                {
+                  "code": "SLEEPING",
+                  "name": "Sleeping",
+                  "children": [],
+                  "parent_code": "RELAXATION"
+                },
+                {
+                  "code": "LAZY_SUNDAY_MORNING",
+                  "name": "Lazy Day",
+                  "children": [],
+                  "parent_code": "RELAXATION"
+                }
+              ]
+            },
+            {
+              "code": "EXERCISE",
+              "name": "Exercise",
+              "children": [
+                {
+                  "code": "CARDIO_WORKOUT",
+                  "name": "Cardio Workout",
+                  "children": [],
+                  "parent_code": "EXERCISE"
+                },
+                {
+                  "code": "SNOWBOARDING_SKIING",
+                  "name": "Snowboarding / Skiing",
+                  "children": [],
+                  "parent_code": "EXERCISE"
+                },
+                {
+                  "code": "WEIGHT_LIFTING",
+                  "name": "Weight Lifting",
+                  "children": [],
+                  "parent_code": "EXERCISE"
+                },
+                {
+                  "code": "YOGA",
+                  "name": "Yoga / Meditation",
+                  "children": [],
+                  "parent_code": "EXERCISE"
+                },
+                {
+                  "code": "JOGGING",
+                  "name": "Running",
+                  "children": [],
+                  "parent_code": "EXERCISE"
+                }
+              ]
+            },
+            {
+              "code": "DISCOVERING_NEW_MUSIC",
+              "name": "Discovering New Music",
+              "children": []
+            }
+          ],
+          "parent_code": "ACTIVITY"
+        }
+      },
+      {
+        "id": "MOOD",
+        "description": "Mood",
+        "cover": "https://vip-resource.galaxie.ca/2/vibe-category-icon/MOBILE_VIBE_CATEGORY_ICON_268_JPG/mood.jpg",
+        "tag": {
+          "code": "MOOD",
+          "name": "MOOD",
+          "children": [
+            {
+              "code": "REBELLIOUS",
+              "name": "Defiant",
+              "children": []
+            },
+            {
+              "code": "CHILL",
+              "name": "Chill",
+              "children": []
+            },
+            {
+              "code": "ZEN",
+              "name": "Zen",
+              "children": []
+            },
+            {
+              "code": "QUIRKY",
+              "name": "Quirky",
+              "children": []
+            },
+            {
+              "code": "CLASSY",
+              "name": "Elegant",
+              "children": []
+            },
+            {
+              "code": "UPLIFTED",
+              "name": "Uplifted",
+              "children": []
+            },
+            {
+              "code": "EARTHY",
+              "name": "Earthy",
+              "children": []
+            },
+            {
+              "code": "FUN",
+              "name": "Fun",
+              "children": []
+            },
+            {
+              "code": "ANGRY",
+              "name": "Furious",
+              "children": []
+            },
+            {
+              "code": "ROMANTIC",
+              "name": "Romantic",
+              "children": []
+            },
+            {
+              "code": "DRAMATIC",
+              "name": "Dramatic",
+              "children": []
+            },
+            {
+              "code": "HAPPY",
+              "name": "Happy",
+              "children": []
+            },
+            {
+              "code": "NOSTALGIC",
+              "name": "Nostalgic",
+              "children": []
+            },
+            {
+              "code": "SILLY",
+              "name": "Silly",
+              "children": []
+            },
+            {
+              "code": "MELANCHOLY",
+              "name": "Melancholy",
+              "children": []
+            },
+            {
+              "code": "BOLD",
+              "name": "Bold",
+              "children": []
+            },
+            {
+              "code": "SEXUAL",
+              "name": "Sexy",
+              "children": []
+            },
+            {
+              "code": "FUNKY",
+              "name": "Trendy",
+              "children": []
+            },
+            {
+              "code": "ARTSY",
+              "name": "Cerebral",
+              "children": []
+            },
+            {
+              "code": "ENERGETIC",
+              "name": "Energetic",
+              "children": []
+            },
+            {
+              "code": "FESTIVE",
+              "name": "Festive",
+              "children": []
+            },
+            {
+              "code": "POWERFUL",
+              "name": "Powerful",
+              "children": []
+            },
+            {
+              "code": "ADVENTUROUS",
+              "name": "Adventurous",
+              "children": []
+            },
+            {
+              "code": "SWEET",
+              "name": "Cute",
+              "children": []
+            }
+          ],
+          "parent_code": "MOOD"
+        }
+      }
+    ]
+  }
+]
