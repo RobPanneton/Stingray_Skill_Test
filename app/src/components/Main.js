@@ -1,8 +1,10 @@
 import React, { useContext, useEffect } from "react";
-
 import styled from "styled-components";
 
 import { BaseContext } from "../context/BaseContext";
+
+import { Container } from "./content/Container";
+
 import { COLORS } from "../constants";
 
 export const Main = () => {
@@ -15,6 +17,7 @@ export const Main = () => {
   return (
     <Wrapper>
       <h1 className='main-header'>Stingray Music Categories</h1>
+      <Container />
     </Wrapper>
   );
 };
@@ -24,12 +27,14 @@ const Wrapper = styled.div`
   background-color: ${COLORS.mainBackground};
   min-height: 100vh;
 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   h1.main-header {
     // FIX THIS
     color: ${COLORS.mainText};
-    max-width: 520px;
-    margin: 0 auto;
-    padding-top: 72px;
+    margin: 72px 0;
     font-size: calc(200% + 0.8vmin);
   }
 `;

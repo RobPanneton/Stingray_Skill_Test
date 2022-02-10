@@ -1,7 +1,8 @@
 export const COLORS = {
-  // background colors
+  // BACKGROUND COLORS
   mainBackground: "#16191B",
-
-  // text colors
+  // TEXT COLORS
   mainText: "#75BB74",
+  // BORDER COLORS
+  mainBorder: "#16191B",
 };
