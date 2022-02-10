@@ -6,6 +6,7 @@ import { BaseContext } from "../../../context/BaseContext";
 import { COLORS } from "../../../constants";
 
 import arrowPNG from "../../../assets/PNGs/Arrow_bottom.png";
+import { MostPopularContent } from "./MostPopularContent";
 
 export const MostPopular = () => {
   const { data } = useContext(BaseContext);
@@ -25,6 +26,7 @@ export const MostPopular = () => {
           </button>
         </div>
       </DropdownHeader>
+      <MostPopularContent content={data[0].swimlaneItems} />
     </>
   );
 };
