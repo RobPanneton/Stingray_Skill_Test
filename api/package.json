@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Api for the channel list Stingray technical test",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.2",
