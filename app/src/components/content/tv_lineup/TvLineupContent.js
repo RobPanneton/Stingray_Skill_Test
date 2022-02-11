@@ -5,7 +5,6 @@ import styled from "styled-components";
 import { COLORS } from "../../../constants";
 
 export const TvLineupContent = ({ content }) => {
-  console.log(content[0].id);
   return (
     <ContentWrapper>
       {content.map((item, index) => {
