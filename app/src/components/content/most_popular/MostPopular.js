@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 
 import { BaseContext } from "../../../context/BaseContext";
@@ -11,13 +11,11 @@ import { MostPopularContent } from "./MostPopularContent";
 export const MostPopular = () => {
   const { data } = useContext(BaseContext);
 
-  console.log(data);
-
   return (
     <>
       <DropdownHeader>
         <div className='info'>
-          <h1>Most Popular</h1>
+          <h1>{data[0].description}</h1>
           <p>{data[0].swimlaneItems.length} Channels</p>
         </div>
         <div className='dropdown'>

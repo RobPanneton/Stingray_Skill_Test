@@ -2,14 +2,14 @@ import React, { useContext, useEffect } from "react";
 
 import styled from "styled-components";
 
-import { BrowseAll } from "./browse_all/BrowseAll";
 import { MostPopular } from "./most_popular/MostPopular";
+import { TvLineup } from "./tv_lineup/TvLineup";
 
 export const Container = () => {
   return (
     <Wrapper>
       <MostPopular />
-      <BrowseAll />
+      <TvLineup />
     </Wrapper>
   );
 };
@@ -17,4 +17,5 @@ export const Container = () => {
 const Wrapper = styled.div`
   width: 70%;
   height: 100%;
+  margin-bottom: 32px;
 `;
