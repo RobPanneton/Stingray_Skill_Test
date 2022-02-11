@@ -78,6 +78,14 @@ const ItemCard = styled.div`
     width: 100%;
 
     background-color: black;
-    opacity: 0.2;
+    opacity: 0.6;
+
+    transition: 0.2s ease-in;
+
+    :hover {
+      opacity: 0.2;
+
+      transition: 0.2s ease-in;
+    }
   }
 `;

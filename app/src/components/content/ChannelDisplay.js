@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 
 import styled from "styled-components";
 
@@ -29,6 +29,10 @@ const ItemRow = styled.div`
   padding: 13px;
 
   display: flex;
+
+  :hover {
+    background-color: ${COLORS.hoverBackground};
+  }
 
   img.row-picture {
     height: 80px;
