@@ -1,15 +1,19 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 
 import styled from "styled-components";
+import { BaseContext } from "../../context/BaseContext";
 
-import { MostPopular } from "./most_popular/MostPopular";
-import { TvLineup } from "./tv_lineup/TvLineup";
+import { AccordionHeader } from "./AccordionHeader";
 
 export const Container = () => {
+  const { isOpen, data } = useContext(BaseContext);
+
   return (
     <Wrapper>
-      <MostPopular />
-      <TvLineup />
+      {isOpen &&
+        data.map((content, index) => {
+          return <AccordionHeader content={content} key={index} />;
+        })}
     </Wrapper>
   );
 };
