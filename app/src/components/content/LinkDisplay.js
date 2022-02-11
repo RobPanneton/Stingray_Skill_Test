@@ -1,17 +1,18 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 
 import styled from "styled-components";
 
 import { COLORS } from "../../constants";
 
-export const LinkDisplay = ({ content }) => {
+export const LinkDisplay = ({ content, isOpen }) => {
   return (
-    <ContentWrapper>
+    <ContentWrapper className={isOpen ? "content" : "content"}>
       {content.map((item, index) => {
         return (
           <ItemCard key={index}>
             <img src={item.cover} alt={item.label} className='row-picture' />
             <p>{item.description}</p>
+            <div className='black_filter'></div>
           </ItemCard>
         );
       })}
@@ -30,8 +31,23 @@ const ContentWrapper = styled.div`
   column-gap: 13px;
   row-gap: 13px;
 
+  &.show-content {
+    /* visibility: visible;
+    opacity: 1; */
 
+    border-top: 1px solid #666;
+    height: auto;
+    max-height: 2000px;
 
+    transition: max-height 0.7s, opacity 3s, visibility 4s ease, width 2s ease;
+  }
+
+  &.hide-content {
+    position: relative;
+    /* visibility: hidden;
+    opacity: 0; */
+    max-height: 0px;
+    transition: 2.6s ease;
   }
 `;
 
@@ -53,5 +69,15 @@ const ItemCard = styled.div`
     color: white;
     position: absolute;
     text-align: center;
+    z-index: 2;
+  }
+
+  .black_filter {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    background-color: black;
+    opacity: 0.2;
   }
 `;

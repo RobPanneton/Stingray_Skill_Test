@@ -32,20 +32,23 @@ export const AccordionHeader = ({ content }) => {
             <img
               src={arrowPNG}
               alt='click to open dropdown'
-              className={isOpen[content.id] ? "close" : "open"}
+              className={isOpen[content.id] ? "close-arrow" : "open-arrow"}
             />
           </button>
         </div>
       </DropdownHeader>
       {isOpen[content.id] && (
-        <>
+        <ContentContainer>
           {content.type === "CHANNEL" && (
             <ChannelDisplay content={content.swimlaneItems} />
           )}
           {content.type === "LINK" && (
-            <LinkDisplay content={content.swimlaneItems} />
+            <LinkDisplay
+              content={content.swimlaneItems}
+              isOpen={isOpen[content.id]}
+            />
           )}
-        </>
+        </ContentContainer>
       )}
     </>
   );
@@ -92,17 +95,42 @@ const DropdownHeader = styled.div`
       justify-content: center;
       align-items: center;
 
+      cursor: pointer;
+
       img {
         height: 32px;
         width: 32px;
       }
-      .close {
+      .close-arrow {
         transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
         transition: 0.6s ease;
       }
-      .open {
+      .open-arrow {
         transition: 0.6s ease;
       }
     }
   }
+`;
+
+const ContentContainer = styled.div`
+  position: relative;
+  /* &.show-content {
+    position: relative;
+    visibility: visible;
+    height: auto;
+    max-height: 9999999px;
+
+    background-color: black;
+
+    opacity: 1;
+    transition: 2.7s ease;
+  }
+
+  &.hide-content {
+    visibility: hidden;
+    opacity: 0;
+    max-height: 0px;
+    transition: 2.6s ease;
+  } */
 `;

@@ -26,13 +26,13 @@ const Wrapper = styled.div`
   width: 100%;
   background-color: ${COLORS.mainBackground};
   min-height: 100vh;
+  height: 100%;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 
   h1.main-header {
-    // FIX THIS
     color: ${COLORS.mainText};
     margin: 72px 0;
     font-size: calc(200% + 0.8vmin);
