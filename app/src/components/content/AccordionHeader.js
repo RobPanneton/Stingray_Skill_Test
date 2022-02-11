@@ -12,6 +12,15 @@ import { LinkDisplay } from "./LinkDisplay";
 export const AccordionHeader = ({ content }) => {
   const { isOpen, setIsOpen } = useContext(BaseContext);
 
+  const handleToggleDropdown = () => {
+    return setIsOpen(
+      Object.keys(isOpen).reduce((acc, key) => {
+        if (key === content.id) return { ...acc, [key]: !isOpen[key] };
+        return { ...acc, [key]: false };
+      }, {})
+    );
+  };
+
   return (
     <>
       <DropdownHeader>
@@ -20,7 +29,7 @@ export const AccordionHeader = ({ content }) => {
           <p>{content.swimlaneItems.length} Channels</p>
         </div>
         <div className='dropdown'>
-          <button>
+          <button onClick={handleToggleDropdown}>
             <img src={arrowPNG} alt='click to open dropdown' />{" "}
           </button>
         </div>
