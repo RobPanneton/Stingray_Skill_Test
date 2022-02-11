@@ -2,12 +2,11 @@ import React, { useContext } from "react";
 import styled from "styled-components";
 
 import { BaseContext } from "../../context/BaseContext";
-
-import { COLORS } from "../../constants";
-
-import arrowPNG from "../../assets/PNGs/Arrow_bottom.png";
 import { ChannelDisplay } from "./ChannelDisplay";
 import { LinkDisplay } from "./LinkDisplay";
+
+import { COLORS } from "../../constants";
+import arrowPNG from "../../assets/PNGs/Arrow_bottom.png";
 
 export const AccordionHeader = ({ content }) => {
   const { isOpen, setIsOpen } = useContext(BaseContext);
@@ -30,7 +29,11 @@ export const AccordionHeader = ({ content }) => {
         </div>
         <div className='dropdown'>
           <button onClick={handleToggleDropdown}>
-            <img src={arrowPNG} alt='click to open dropdown' />{" "}
+            <img
+              src={arrowPNG}
+              alt='click to open dropdown'
+              className={isOpen[content.id] ? "close" : "open"}
+            />
           </button>
         </div>
       </DropdownHeader>
@@ -58,6 +61,8 @@ const DropdownHeader = styled.div`
   display: flex;
   justify-content: space-between;
 
+  background-color: ${COLORS.contentBackground};
+
   div.info {
     display: flex;
     flex-direction: column;
@@ -80,6 +85,9 @@ const DropdownHeader = styled.div`
       height: 43px;
       width: 43px;
 
+      border: none;
+      background-color: ${COLORS.contentBackground};
+
       display: flex;
       justify-content: center;
       align-items: center;
@@ -87,6 +95,13 @@ const DropdownHeader = styled.div`
       img {
         height: 32px;
         width: 32px;
+      }
+      .close {
+        transform: rotate(-180deg);
+        transition: 0.6s ease;
+      }
+      .open {
+        transition: 0.6s ease;
       }
     }
   }
