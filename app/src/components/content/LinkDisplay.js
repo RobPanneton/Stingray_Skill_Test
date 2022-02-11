@@ -2,9 +2,9 @@ import React, { useState, useContext } from "react";
 
 import styled from "styled-components";
 
-import { COLORS } from "../../../constants";
+import { COLORS } from "../../constants";
 
-export const TvLineupContent = ({ content }) => {
+export const LinkDisplay = ({ content }) => {
   return (
     <ContentWrapper>
       {content.map((item, index) => {
