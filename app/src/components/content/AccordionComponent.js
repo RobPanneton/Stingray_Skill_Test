@@ -8,7 +8,7 @@ import { LinkDisplay } from "./LinkDisplay";
 import { COLORS } from "../../constants";
 import arrowPNG from "../../assets/PNGs/Arrow_bottom.png";
 
-export const AccordionHeader = ({ content }) => {
+export const AccordionComponent = ({ content }) => {
   const { isOpen, setIsOpen } = useContext(BaseContext);
 
   const handleToggleDropdown = () => {
@@ -21,7 +21,7 @@ export const AccordionHeader = ({ content }) => {
   };
 
   return (
-    <>
+    <ComponentContainer>
       {/* RENDER CATEGORY'S ACCORDION CONTENT HEADER */}
       <DropdownHeader onClick={handleToggleDropdown}>
         <div className='info'>
@@ -50,9 +50,13 @@ export const AccordionHeader = ({ content }) => {
           isOpen={isOpen[content.id]}
         />
       )}
-    </>
+    </ComponentContainer>
   );
 };
+
+const ComponentContainer = styled.div`
+  max-height: 200px;
+`;
 
 const DropdownHeader = styled.div`
   width: 100%;

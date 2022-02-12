@@ -2,32 +2,33 @@ import React, { useContext } from "react";
 import styled from "styled-components";
 
 import { BaseContext } from "../../context/BaseContext";
-import { AccordionHeader } from "./AccordionHeader";
+import { AccordionComponent } from "./AccordionComponent";
 
 import { COLORS } from "../../constants";
 
-export const Container = () => {
+export const AccordionContainer = () => {
   const { isOpen, data } = useContext(BaseContext);
 
   return (
-    <Wrapper>
+    <AccordionWrapper>
       {isOpen &&
         data.map((content, index) => {
-          return <AccordionHeader content={content} key={index} />;
+          return <AccordionComponent content={content} key={index} />;
         })}
-    </Wrapper>
+    </AccordionWrapper>
   );
 };
 
-const Wrapper = styled.div`
+const AccordionWrapper = styled.div`
   width: 70%;
   height: 100%;
+
   margin-bottom: 32px;
   padding: 7px;
-  background-color: ${COLORS.mainBackground};
-
   border: 2px solid ${COLORS.contentBackground};
   border-radius: 9px;
+
+  background-color: ${COLORS.mainBackground};
 
   @media only screen and (max-width: 1000px) {
     width: 95%;

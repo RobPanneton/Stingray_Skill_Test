@@ -1,9 +1,9 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import styled from "styled-components";
 
 import { BaseContext } from "../context/BaseContext";
 
-import { Container } from "./content/Container";
+import { AccordionContainer } from "./content/AccordionContainer";
 
 import { COLORS } from "../constants";
 
@@ -11,14 +11,14 @@ export const Main = () => {
   const { data } = useContext(BaseContext);
 
   return (
-    <Wrapper>
+    <MainWrapper>
       <h1 className='main-header'>Stingray Music Categories</h1>
-      {data && <Container />}
-    </Wrapper>
+      {data && <AccordionContainer />}
+    </MainWrapper>
   );
 };
 
-const Wrapper = styled.div`
+const MainWrapper = styled.div`
   width: 100%;
   background-color: ${COLORS.mainBackground};
   min-height: 100vh;
