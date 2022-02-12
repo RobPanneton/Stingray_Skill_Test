@@ -9,7 +9,7 @@ export const ChannelDisplay = ({ content, isOpen }) => {
     <ChannelWrapper className={isOpen ? "show-content" : "hide-content"}>
       {content.map((item, index) => {
         return (
-          <ItemRow key={index}>
+          <ItemRow key={index} className={isOpen ? "maximize" : "minimize"}>
             <img src={item.cover} alt={item.label} className='row-picture' />
             <div className='row-info'>
               <h1>{item.label}</h1>
@@ -52,6 +52,11 @@ const ItemRow = styled.div`
   padding: 13px;
 
   display: flex;
+
+  &.minimize {
+    max-height: 0px;
+    transition: 0.6s ease;
+  }
 
   @media only screen and (max-width: 1000px) {
     justify-content: center;

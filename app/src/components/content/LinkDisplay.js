@@ -9,7 +9,7 @@ export const LinkDisplay = ({ content, isOpen }) => {
     <LinkWrapper className={isOpen ? "show-content" : "hide-content"}>
       {content.map((item, index) => {
         return (
-          <ItemCard key={index}>
+          <ItemCard key={index} className={isOpen ? "maximize" : "minimize"}>
             <img src={item.cover} alt={item.label} className='row-picture' />
             <p>{item.description}</p>
             <div className='black_filter'></div>
@@ -70,6 +70,11 @@ const ItemCard = styled.div`
   align-items: center;
 
   margin-bottom: 13px;
+
+  &.minimize {
+    max-height: 0px;
+    transition: 0.6s ease;
+  }
 
   img {
     height: 100%;

@@ -21,7 +21,7 @@ export const AccordionComponent = ({ content }) => {
   };
 
   return (
-    <ComponentContainer>
+    <>
       {/* RENDER CATEGORY'S ACCORDION CONTENT HEADER */}
       <DropdownHeader onClick={handleToggleDropdown}>
         <div className='info'>
@@ -50,13 +50,9 @@ export const AccordionComponent = ({ content }) => {
           isOpen={isOpen[content.id]}
         />
       )}
-    </ComponentContainer>
+    </>
   );
 };
-
-const ComponentContainer = styled.div`
-  max-height: 200px;
-`;
 
 const DropdownHeader = styled.div`
   width: 100%;
