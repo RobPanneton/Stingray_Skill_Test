@@ -67,7 +67,7 @@ const ItemRow = styled.div`
   }
 
   :hover {
-    background-color: ${COLORS.hoverBackground};
+    background-color: ${COLORS.mainBackground};
   }
 
   img.row-picture {

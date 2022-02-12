@@ -31,6 +31,11 @@ const LinkWrapper = styled.div`
   column-gap: 13px;
   row-gap: 13px;
 
+  :hover {
+    background-color: ${COLORS.mainBackground};
+    border-bottom: none;
+  }
+
   @media only screen and (max-width: 1000px) {
     grid-template-columns: auto auto;
   }
