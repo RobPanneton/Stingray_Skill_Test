@@ -7,6 +7,7 @@ import { AccordionContainer } from "./content/AccordionContainer";
 import { COLORS } from "../constants";
 
 import { Header } from "./Header";
+import { BouncingLogo } from "./BouncingLogo";
 
 export const Main = () => {
   const { data } = useContext(BaseContext);
@@ -22,6 +23,7 @@ export const Main = () => {
 
 const MainWrapper = styled.div`
   width: 100%;
+  max-width: 100%;
   background-color: ${COLORS.mainBackground};
   min-height: 100vh;
   max-height: 100%;
