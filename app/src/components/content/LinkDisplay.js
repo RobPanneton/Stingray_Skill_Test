@@ -73,7 +73,9 @@ const ItemCard = styled.div`
 
   &.minimize {
     max-height: 0px;
-    transition: 0.6s ease;
+    margin-bottom: 0;
+
+    transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.1s ease;
   }
 
   img {

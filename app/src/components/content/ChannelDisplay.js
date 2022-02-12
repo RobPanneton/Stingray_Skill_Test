@@ -41,7 +41,7 @@ const ChannelWrapper = styled.div`
 
     max-height: 0px;
 
-    transition: 0.4s ease;
+    transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.1s ease;
   }
 `;
 
@@ -55,6 +55,8 @@ const ItemRow = styled.div`
 
   &.minimize {
     max-height: 0px;
+    padding: 0;
+
     transition: 0.6s ease;
   }
 
