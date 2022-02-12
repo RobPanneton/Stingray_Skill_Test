@@ -33,5 +33,13 @@ const Wrapper = styled.div`
     color: ${COLORS.mainText};
     margin: 72px 0;
     font-size: calc(300% + 0.8vmin);
+    max-width: 80%;
+
+    @media only screen and (max-width: 600px) {
+      font-size: calc(170% + 1.2vmin);
+      line-height: 120%;
+      font-weight: 800;
+      margin: 39px 0;
+    }
   }
 `;

@@ -28,4 +28,8 @@ const Wrapper = styled.div`
 
   border: 2px solid ${COLORS.contentBackground};
   border-radius: 9px;
+
+  @media only screen and (max-width: 1000px) {
+    width: 95%;
+  }
 `;

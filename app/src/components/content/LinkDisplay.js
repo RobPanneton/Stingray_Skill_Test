@@ -31,6 +31,14 @@ const LinkWrapper = styled.div`
   column-gap: 13px;
   row-gap: 13px;
 
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: auto auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: auto;
+  }
+
   &.show-content {
     visibility: visible;
     opacity: 1;
@@ -40,9 +48,9 @@ const LinkWrapper = styled.div`
     border-top: 1px solid #666;
 
     height: auto;
-    max-height: 2000px;
+    max-height: 9000px;
 
-    transition: 0.6s ease;
+    transition: 1s ease;
   }
 
   &.hide-content {
@@ -51,7 +59,7 @@ const LinkWrapper = styled.div`
     opacity: 0;
 
     max-height: 0px;
-    transition: 0.6s ease;
+    transition: 0.4s ease;
   }
 `;
 
@@ -69,7 +77,7 @@ const ItemCard = styled.div`
   }
 
   p {
-    font-size: calc(100% + 0.8vmin);
+    font-size: 18px;
     color: white;
     position: absolute;
     text-align: center;
