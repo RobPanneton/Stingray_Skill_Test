@@ -4,7 +4,7 @@ import styled from "styled-components";
 import logoWhite from "../assets/PNGs/Stingray_logo_white.png";
 
 export const BouncingLogo = ({ side, num }) => {
-  const logoSize = "100px";
+  //   const logoSize = "100px";
 
   const logoDiv = document.getElementById(`x-${num}`);
   const imageEl = document.getElementById(`y-${num}`);

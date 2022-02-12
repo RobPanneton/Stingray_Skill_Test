@@ -17,14 +17,6 @@ export const BaseContextProvider = ({ children }) => {
     }
   };
 
-  // CREATE DROPDOWN STATE
-  const setOpenStates = () => {
-    const initialIsOpenObj = data.reduce((acc, obj) => {
-      return { ...acc, [obj.id]: false };
-    }, {});
-    setIsOpen(initialIsOpenObj);
-  };
-
   // GET DATA FROM BE WHEN APP RUNS
   useEffect(() => {
     getDataFromBE();
@@ -32,6 +24,15 @@ export const BaseContextProvider = ({ children }) => {
 
   // SET OPEN STATES ONCE WE KNOW HOW MANY CATEGORIES THERE ARE
   useEffect(() => {
+    // CREATE DROPDOWN STATE
+    const setOpenStates = () => {
+      const initialIsOpenObj = data.reduce((acc, obj) => {
+        return { ...acc, [obj.id]: false };
+      }, {});
+      setIsOpen(initialIsOpenObj);
+    };
+
+    // SET THE STATES
     if (data) setOpenStates();
   }, [data]);
 
