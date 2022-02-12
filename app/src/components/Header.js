@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 
 import { COLORS } from "../constants";
-
 import logo from "../assets/PNGs/Stingray_logo_blue.png";
 
 export const Header = () => {

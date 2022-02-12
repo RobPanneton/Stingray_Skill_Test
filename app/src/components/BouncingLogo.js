@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import styled from "styled-components";
 
 import logoWhite from "../assets/PNGs/Stingray_logo_white.png";

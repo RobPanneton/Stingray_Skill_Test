@@ -11,6 +11,7 @@ import arrowPNG from "../../assets/PNGs/Arrow_bottom.png";
 export const AccordionComponent = ({ content }) => {
   const { isOpen, setIsOpen } = useContext(BaseContext);
 
+  // TOGGLE SELECTED HEADER AND CLOSE THE REST
   const handleToggleDropdown = () => {
     return setIsOpen(
       Object.keys(isOpen).reduce((acc, key) => {
@@ -57,12 +58,13 @@ export const AccordionComponent = ({ content }) => {
 const DropdownHeader = styled.div`
   width: 100%;
   min-height: 100px;
-  background-color: white;
-  border-bottom: 1px solid ${COLORS.mainBorder};
-  padding: 17px;
 
   display: flex;
   justify-content: space-between;
+
+  background-color: white;
+  border-bottom: 1px solid ${COLORS.mainBorder};
+  padding: 17px;
 
   background-color: ${COLORS.contentBackground};
 

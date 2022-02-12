@@ -57,6 +57,4 @@ table {
 :root {
 	--bouncing-logo-size: 100px;
 }
-    
-
 `;
