@@ -14,22 +14,23 @@ export const BaseContextProvider = ({ children }) => {
       setData(data);
     } catch (e) {
       console.error(e);
-      // perhaps add some error handling here
     }
   };
 
   // CREATE DROPDOWN STATE
   const setOpenStates = () => {
-    const isOpenObj = data.reduce((acc, obj) => {
+    const initialIsOpenObj = data.reduce((acc, obj) => {
       return { ...acc, [obj.id]: false };
     }, {});
-    setIsOpen(isOpenObj);
+    setIsOpen(initialIsOpenObj);
   };
 
+  // GET DATA FROM BE WHEN APP RUNS
   useEffect(() => {
     getDataFromBE();
   }, []);
 
+  // SET OPEN STATES ONCE WE KNOW HOW MANY CATEGORIES THERE ARE
   useEffect(() => {
     if (data) setOpenStates();
   }, [data]);

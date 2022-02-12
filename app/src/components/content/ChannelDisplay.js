@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled from "styled-components";
 
 import { COLORS } from "../../constants";
@@ -47,6 +46,7 @@ const ChannelWrapper = styled.div`
 
 const ItemRow = styled.div`
   width: 100%;
+
   background-color: white;
   border-bottom: 1px solid ${COLORS.mainBorder};
   padding: 13px;

@@ -1,5 +1,4 @@
 import React from "react";
-
 import styled from "styled-components";
 
 import { COLORS } from "../../constants";
@@ -11,7 +10,7 @@ export const LinkDisplay = ({ content, isOpen }) => {
         return (
           <ItemCard key={index} className={isOpen ? "maximize" : "minimize"}>
             <img src={item.cover} alt={item.label} className='row-picture' />
-            <p>{item.description}</p>
+            <p className='link-title'>{item.description}</p>
             <div className='black_filter'></div>
           </ItemCard>
         );
@@ -50,12 +49,11 @@ const LinkWrapper = styled.div`
     visibility: visible;
     opacity: 1;
 
-    padding-top: 13px;
-
-    border-top: 1px solid #666;
-
     height: auto;
     max-height: 9000px;
+
+    padding-top: 13px;
+    border-top: 1px solid #666;
 
     transition: 1s ease;
   }
@@ -64,15 +62,18 @@ const LinkWrapper = styled.div`
     position: relative;
     visibility: hidden;
 
+    max-height: 0px;
     opacity: 0;
 
-    max-height: 0px;
+    border: none;
+
     transition: 0.4s ease;
   }
 `;
 
 const ItemCard = styled.div`
   position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,18 +82,19 @@ const ItemCard = styled.div`
 
   &.minimize {
     max-height: 0px;
-    margin-bottom: 0;
     opacity: 0;
+
+    margin-bottom: 0;
 
     transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.4s ease;
   }
 
-  img {
+  img.row-picture {
     height: 100%;
     width: 100%;
   }
 
-  p {
+  p.link-title {
     font-size: 18px;
     color: white;
     position: absolute;

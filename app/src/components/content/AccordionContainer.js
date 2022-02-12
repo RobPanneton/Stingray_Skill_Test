@@ -11,6 +11,7 @@ export const AccordionContainer = () => {
 
   return (
     <AccordionWrapper>
+      {/* RENDER ACCORDION COMPONENTS ONCE ISOPEN STATE IS SET */}
       {isOpen &&
         data.map((content, index) => {
           return <AccordionComponent content={content} key={index} />;
