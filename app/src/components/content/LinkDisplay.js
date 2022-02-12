@@ -34,6 +34,8 @@ const LinkWrapper = styled.div`
   :hover {
     background-color: ${COLORS.mainBackground};
     border-bottom: none;
+
+    transition: background-color 0.1s ease-in-out;
   }
 
   @media only screen and (max-width: 1000px) {
@@ -61,6 +63,7 @@ const LinkWrapper = styled.div`
   &.hide-content {
     position: relative;
     visibility: hidden;
+
     opacity: 0;
 
     max-height: 0px;
@@ -79,8 +82,9 @@ const ItemCard = styled.div`
   &.minimize {
     max-height: 0px;
     margin-bottom: 0;
+    opacity: 0;
 
-    transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.1s ease;
+    transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.4s ease;
   }
 
   img {
@@ -107,7 +111,7 @@ const ItemCard = styled.div`
     transition: 0.2s ease-in;
 
     :hover {
-      opacity: 0.2;
+      opacity: 0;
 
       transition: 0.2s ease-in;
     }
