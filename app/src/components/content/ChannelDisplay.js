@@ -4,9 +4,9 @@ import styled from "styled-components";
 
 import { COLORS } from "../../constants";
 
-export const ChannelDisplay = ({ content }) => {
+export const ChannelDisplay = ({ content, isOpen }) => {
   return (
-    <>
+    <ChannelWrapper className={isOpen ? "show-content" : "hide-content"}>
       {content.map((item, index) => {
         return (
           <ItemRow key={index}>
@@ -18,9 +18,32 @@ export const ChannelDisplay = ({ content }) => {
           </ItemRow>
         );
       })}
-    </>
+    </ChannelWrapper>
   );
 };
+
+const ChannelWrapper = styled.div`
+  &.show-content {
+    visibility: visible;
+    opacity: 1;
+
+    border-top: 1px solid #666;
+    height: auto;
+    max-height: 2000px;
+
+    transition: 0.6s ease;
+  }
+
+  &.hide-content {
+    visibility: hidden;
+    position: relative;
+    opacity: 0;
+
+    max-height: 0px;
+
+    transition: 0.6s ease;
+  }
+`;
 
 const ItemRow = styled.div`
   width: 100%;

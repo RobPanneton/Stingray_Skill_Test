@@ -10,10 +10,6 @@ import { COLORS } from "../constants";
 export const Main = () => {
   const { data } = useContext(BaseContext);
 
-  useEffect(() => {
-    if (data) console.log(data);
-  }, [data]);
-
   return (
     <Wrapper>
       <h1 className='main-header'>Stingray Music Categories</h1>
@@ -26,15 +22,16 @@ const Wrapper = styled.div`
   width: 100%;
   background-color: ${COLORS.mainBackground};
   min-height: 100vh;
-  height: 100%;
+  max-height: 100%;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 
   h1.main-header {
+    text-align: center;
     color: ${COLORS.mainText};
     margin: 72px 0;
-    font-size: calc(200% + 0.8vmin);
+    font-size: calc(300% + 0.8vmin);
   }
 `;

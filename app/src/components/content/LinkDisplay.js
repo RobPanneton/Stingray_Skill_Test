@@ -6,7 +6,7 @@ import { COLORS } from "../../constants";
 
 export const LinkDisplay = ({ content, isOpen }) => {
   return (
-    <ContentWrapper className={isOpen ? "content" : "content"}>
+    <LinkWrapper className={isOpen ? "show-content" : "hide-content"}>
       {content.map((item, index) => {
         return (
           <ItemCard key={index}>
@@ -16,15 +16,15 @@ export const LinkDisplay = ({ content, isOpen }) => {
           </ItemCard>
         );
       })}
-    </ContentWrapper>
+    </LinkWrapper>
   );
 };
 
-const ContentWrapper = styled.div`
+const LinkWrapper = styled.div`
   min-width: 100%;
   background-color: white;
   border-bottom: 1px solid ${COLORS.mainBorder};
-  padding: 13px;
+  padding: 0px 13px 0px 13px;
 
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -32,22 +32,26 @@ const ContentWrapper = styled.div`
   row-gap: 13px;
 
   &.show-content {
-    /* visibility: visible;
-    opacity: 1; */
+    visibility: visible;
+    opacity: 1;
+
+    padding-top: 13px;
 
     border-top: 1px solid #666;
+
     height: auto;
     max-height: 2000px;
 
-    transition: max-height 0.7s, opacity 3s, visibility 4s ease, width 2s ease;
+    transition: 0.6s ease;
   }
 
   &.hide-content {
     position: relative;
-    /* visibility: hidden;
-    opacity: 0; */
+    visibility: hidden;
+    opacity: 0;
+
     max-height: 0px;
-    transition: 2.6s ease;
+    transition: 0.6s ease;
   }
 `;
 

@@ -22,6 +22,7 @@ export const AccordionHeader = ({ content }) => {
 
   return (
     <>
+      {/* RENDER CATEGORY'S ACCORDION CONTENT HEADER */}
       <DropdownHeader onClick={handleToggleDropdown}>
         <div className='info'>
           <h1>{content.description}</h1>
@@ -35,18 +36,19 @@ export const AccordionHeader = ({ content }) => {
           />
         </div>
       </DropdownHeader>
-      {isOpen[content.id] && (
-        <ContentContainer>
-          {content.type === "CHANNEL" && (
-            <ChannelDisplay content={content.swimlaneItems} />
-          )}
-          {content.type === "LINK" && (
-            <LinkDisplay
-              content={content.swimlaneItems}
-              isOpen={isOpen[content.id]}
-            />
-          )}
-        </ContentContainer>
+
+      {/* RENDER APPROPRIATE CONTENT BOX */}
+      {content.type === "CHANNEL" && (
+        <ChannelDisplay
+          content={content.swimlaneItems}
+          isOpen={isOpen[content.id]}
+        />
+      )}
+      {content.type === "LINK" && (
+        <LinkDisplay
+          content={content.swimlaneItems}
+          isOpen={isOpen[content.id]}
+        />
       )}
     </>
   );
@@ -100,26 +102,4 @@ const DropdownHeader = styled.div`
       transition: 0.6s ease;
     }
   }
-`;
-
-const ContentContainer = styled.div`
-  position: relative;
-  /* &.show-content {
-    position: relative;
-    visibility: visible;
-    height: auto;
-    max-height: 9999999px;
-
-    background-color: black;
-
-    opacity: 1;
-    transition: 2.7s ease;
-  }
-
-  &.hide-content {
-    visibility: hidden;
-    opacity: 0;
-    max-height: 0px;
-    transition: 2.6s ease;
-  } */
 `;
