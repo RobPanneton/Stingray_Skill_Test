@@ -31,6 +31,11 @@ const LinkWrapper = styled.div`
   column-gap: 13px;
   row-gap: 13px;
 
+  :hover {
+    background-color: ${COLORS.mainBackground};
+    border-bottom: none;
+  }
+
   @media only screen and (max-width: 1000px) {
     grid-template-columns: auto auto;
   }
@@ -73,7 +78,9 @@ const ItemCard = styled.div`
 
   &.minimize {
     max-height: 0px;
-    transition: 0.6s ease;
+    margin-bottom: 0;
+
+    transition: max-height 0.4s ease, opacity 0.1s ease, visibility 0.1s ease;
   }
 
   img {

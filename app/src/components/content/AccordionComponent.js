@@ -67,7 +67,7 @@ const DropdownHeader = styled.div`
   background-color: ${COLORS.contentBackground};
 
   :hover {
-    background-color: ${COLORS.hoverBackground};
+    background-color: ${COLORS.mainBorder};
     cursor: pointer;
   }
 

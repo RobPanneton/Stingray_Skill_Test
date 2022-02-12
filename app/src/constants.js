@@ -6,5 +6,5 @@ export const COLORS = {
   // TEXT COLORS
   mainText: "#ffffff",
   // BORDER COLORS
-  mainBorder: "#16191B",
+  mainBorder: "#83a0a8",
 };
