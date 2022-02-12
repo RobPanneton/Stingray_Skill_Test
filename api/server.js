@@ -7,7 +7,14 @@ app.use(express.json());
 const swimlaneData = require("./data/swimlanes.json");
 
 app.get("/api/swimlanes", async (req, res) => {
-  res.json(swimlaneData);
+  let stringified = JSON.stringify(swimlaneData);
+
+  stringified = stringified.replaceAll(/&rsquo;|&lsquo;/gim, "'");
+  stringified = stringified.replaceAll("&amp;", "&");
+
+  const fixedSwimlaneData = JSON.parse(stringified);
+
+  res.json(fixedSwimlaneData);
 });
 
 app.get("*", (req, res) => {
