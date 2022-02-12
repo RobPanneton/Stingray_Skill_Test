@@ -9,7 +9,7 @@ const swimlaneData = require("./data/swimlanes.json");
 app.get("/api/swimlanes", async (req, res) => {
   let stringified = JSON.stringify(swimlaneData);
 
-  stringified = stringified.replaceAll(/&rsquo;|&lsquo;/gim, "'");
+  stringified = stringified.replaceAll(/&rsquo;|&lsquo;/gm, "'");
   stringified = stringified.replaceAll("&amp;", "&");
 
   const fixedSwimlaneData = JSON.parse(stringified);

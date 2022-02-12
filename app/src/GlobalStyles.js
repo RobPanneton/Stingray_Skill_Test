@@ -28,6 +28,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	/* font: inherit; */
 	vertical-align: baseline;
+	z-index: 1;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -51,6 +52,10 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+:root {
+	--bouncing-logo-size: 100px;
 }
     
 
