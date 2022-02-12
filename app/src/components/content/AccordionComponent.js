@@ -8,7 +8,7 @@ import { LinkDisplay } from "./LinkDisplay";
 import { COLORS } from "../../constants";
 import arrowPNG from "../../assets/PNGs/Arrow_bottom.png";
 
-export const AccordionHeader = ({ content }) => {
+export const AccordionComponent = ({ content }) => {
   const { isOpen, setIsOpen } = useContext(BaseContext);
 
   const handleToggleDropdown = () => {
@@ -78,10 +78,18 @@ const DropdownHeader = styled.div`
 
     h1 {
       font-size: calc(180% + 0.8vmin);
+
+      @media only screen and (max-width: 1000px) {
+        font-size: calc(160% + 0.8vmin);
+      }
     }
 
     p {
       font-size: calc(80% + 0.8vmin);
+
+      @media only screen and (max-width: 1000px) {
+        font-size: calc(120% + 0.8vmin);
+      }
     }
   }
 

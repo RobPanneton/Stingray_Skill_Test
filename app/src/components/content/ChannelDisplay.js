@@ -9,7 +9,7 @@ export const ChannelDisplay = ({ content, isOpen }) => {
     <ChannelWrapper className={isOpen ? "show-content" : "hide-content"}>
       {content.map((item, index) => {
         return (
-          <ItemRow key={index}>
+          <ItemRow key={index} className={isOpen ? "maximize" : "minimize"}>
             <img src={item.cover} alt={item.label} className='row-picture' />
             <div className='row-info'>
               <h1>{item.label}</h1>
@@ -29,9 +29,9 @@ const ChannelWrapper = styled.div`
 
     border-top: 1px solid #666;
     height: auto;
-    max-height: 2000px;
+    max-height: 9000px;
 
-    transition: 0.6s ease;
+    transition: 1s ease;
   }
 
   &.hide-content {
@@ -41,7 +41,7 @@ const ChannelWrapper = styled.div`
 
     max-height: 0px;
 
-    transition: 0.6s ease;
+    transition: 0.4s ease;
   }
 `;
 
@@ -53,6 +53,17 @@ const ItemRow = styled.div`
 
   display: flex;
 
+  &.minimize {
+    max-height: 0px;
+    transition: 0.6s ease;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
   :hover {
     background-color: ${COLORS.hoverBackground};
   }
@@ -62,6 +73,12 @@ const ItemRow = styled.div`
     width: 80px;
 
     margin-right: 13px;
+
+    @media only screen and (max-width: 1000px) {
+      height: 160px;
+      width: 160px;
+      margin: 0 0 13px 0px;
+    }
   }
 
   div.row-info {
@@ -69,6 +86,11 @@ const ItemRow = styled.div`
     h1 {
       font-size: calc(80% + 0.8vmin);
       margin-bottom: 5px;
+
+      @media only screen and (max-width: 1000px) {
+        text-align: center;
+        font-size: calc(120% + 0.8vmin);
+      }
     }
   }
 `;
