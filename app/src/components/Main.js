@@ -6,15 +6,20 @@ import { Header } from "./Header";
 import { AccordionContainer } from "./content/AccordionContainer";
 
 import { COLORS } from "../constants";
+import { Spinner } from "./Spinner";
 
 export const Main = () => {
-  const { data } = useContext(BaseContext);
+  const { data, isLoaded } = useContext(BaseContext);
 
   return (
     <MainWrapper>
       {/* RENDER THE HEADER, THEN ACCORDION WHEN DATA IS RECEIVED */}
       <Header />
-      {data && <AccordionContainer />}
+      {isLoaded ? (
+        <AccordionContainer />
+      ) : (
+        <Spinner height={`250px`} width={`250px`} />
+      )}
     </MainWrapper>
   );
 };
