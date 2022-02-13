@@ -25,6 +25,6 @@ app.get("*", (req, res) => {
 });
 
 // Start the server
-app.listen(3100, () => {
+app.listen(8080, () => {
   console.log(`Starting the api on port 3100`);
 });
